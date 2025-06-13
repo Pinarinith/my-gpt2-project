@@ -1,0 +1,233 @@
+\section{Shibo Dai: Downstream Tasks}
+\subsection{Sonnet Generation (\texttt{sonnet\_generation.py})}
+
+\begin{description}
+\item[\texttt{class SonnetGPT(nn.Module):}]
+
+A GPT-2-based model adapted for sonnet generation:
+
+\begin{description}
+\item[\texttt{\_\_init\_\_(self, args)}]:
+
+Initializes a pre-trained GPT-2 model and tokenizer, binds embeddings to the linear layer weights, and configures hyperparameters (hidden dimension $d$, layers $l$, attention heads num\_heads).
+\item[\texttt{forward(self, input\_ids, attention\_mask)}]:
+Forward pass logic:
+\begin{enumerate}
+\item Obtain hidden states \texttt{hidden\_states (shape [batch, seq\_len, d])} from GPT-2.
+\item Project to vocabulary size, outputting \texttt{logits (shape [batch, seq\_len, vocab\_size])}.
+\end{enumerate}
+\item[\texttt{generate(self, encoding, temperature, top\_p, max\_length)}]:
+Generates text using temperature scaling and top-p sampling:
+\begin{enumerate}
+\item Iteratively extend the input sequence up to \texttt{max\_length}.
+\item Apply temperature scaling to the last token's logits and compute probabilities.
+\item Filter low-probability tokens using cumulative threshold top\_p, renormalize, and sample.
+\item Early termination if \texttt{eos\_token\_id} is generated.
+\end{enumerate}
+\end{description}
+
+\item[\texttt{def train(args):}]
+Main training pipeline:
+\begin{enumerate}
+\item Initialize datasets and data loaders (training and validation).
+\item Build the SonnetGPT model and configure the AdamW optimizer.
+\item Training loop (per epoch):
+\begin{itemize}
+\item Forward pass: Compute next-token cross-entropy loss from input sequences.
+\item Loss calculation: Flatten logits to \texttt{[batch*(seq\_len-1), vocab]} and labels to \texttt{[batch*(seq\_len-1)]}.
+\item Backpropagation: Update gradients via \texttt{loss.backward()} and optimizer step.
+\item Early stopping: Monitor validation loss; terminate training if no improvement for patience epochs.
+\item Example generation: Generate full sonnets from validation prefixes after each epoch.
+\end{itemize}
+\end{enumerate}
+
+\item[\texttt{def generate\_submission\_sonnets(args):}]
+Generates final submission sonnets:
+\begin{enumerate}
+\item Load the best model saved during early stopping (\texttt{best\_{args.filepath}}).
+\item For each incomplete sonnet prefix (first 3 lines) in the validation set:
+\begin{itemize}
+\item Generate continuation using model.generate.
+\item Decode tokens and assemble into a complete sonnet.
+\end{itemize}
+\item Write results to \texttt{args.sonnet\_out}.
+\end{enumerate}
+
+\item[\texttt{def save\_model(model, optimizer, args, filepath):}]
+Saves a model checkpoint containing:
+\begin{itemize}
+\item Model and optimizer state dictionaries.
+\item Training hyperparameters (args).
+\item Random number generator states (system, NumPy, PyTorch).
+\end{itemize}
+
+\item[\texttt{def get\_args():}]
+Parses command-line arguments, including:
+\begin{itemize}
+\item Data paths (\texttt{sonnet\_path, held\_out\_sonnet\_path}).
+\item Training hyperparameters (\texttt{epochs, batch\_size, lr}).
+\item Generation parameters (\texttt{temperature, top\_p}).
+\item Model size selection (\texttt{model\_size}, e.g., \texttt{gpt2, gpt2-medium}).
+\end{itemize}
+
+\item[\texttt{def add\_arguments(args):}]
+Configures model architecture parameters based on model\_size:
+\begin{itemize}
+\item \texttt{d}: Hidden dimension (e.g., 768 for \texttt{gpt2}).
+\item \texttt{l}: Number of Transformer layers (e.g., 12 for \texttt{gpt2}).
+\item \texttt{num\_heads}: Attention heads (e.g., 12 for \texttt{gpt2}).
+\end{itemize}
+
+\item[\texttt{def seed\_everything(seed=11711):}]
+Fixes all random seeds (Python, NumPy, PyTorch CPU/CUDA) for reproducibility.
+
+\end{description}
+
+The results are written in the file \texttt{generated\_sonnets.txt} in the folder \texttt{predictions}. And the model is saved as \texttt{best\_10-1e-05-sonnet.pt}
+
+\subsection{Sentiment Classification (\texttt{sentiment\_classifier.py})}
+\begin{description}
+
+\item[\texttt{class GPT2SentimentClassifier(nn.Module):}]
+A GPT-2-based model adapted for sentiment classification:
+\begin{description}
+\item \texttt{\_\_init\_\_(self, config)}:
+Initializes a pre-trained GPT-2 model, freezes or unfreezes parameters based on fine\_tune\_mode, and defines a classifier head with dropout and linear layers.
+\item \texttt{forward(self, input\_ids, attention\_mask)}:
+Computes sentiment logits:
+\begin{enumerate}
+\item Extracts GPT-2 hidden states and applies masked pooling to aggregate contextual embeddings.
+\item Passes pooled embeddings through a classifier (two linear layers with GELU activation and LayerNorm).
+\end{enumerate}
+\end{description}
+
+\item[\texttt{class SentimentDataset(Dataset):}]
+Handles data loading and preprocessing for training/validation:
+\begin{itemize}
+\item Tokenizes sentences using GPT-2 tokenizer.
+\item Pads sequences and returns batched tensors (\texttt{token\_ids, attention\_mask, labels}).
+\end{itemize}
+
+\item[\texttt{class SentimentTestDataset(Dataset):}]
+Similar to SentimentDataset but designed for test data (no labels).
+
+\item[\texttt{def train(args):}]
+Training pipeline:
+\begin{enumerate}
+\item Loads datasets and configures data loaders.
+\item Initializes model and AdamW optimizer.
+\item Trains with cross-entropy loss, evaluates on dev set, and saves the best model based on accuracy.
+\end{enumerate}
+
+\item[\texttt{def test(args):}]
+Evaluates the saved model on dev/test sets:
+\begin{itemize}
+\item Generates predictions and writes results to CSV files (dev\_out, test\_out).
+\end{itemize}
+
+\item[\texttt{def model\_eval(dataloader, model, device):}]
+Computes accuracy and F1 score for evaluation data. Returns predictions and ground truths.
+
+\item[\texttt{def save\_model(model, optimizer, args, config, filepath):}]
+Saves model checkpoint with:
+\begin{itemize}
+\item Model/optimizer states, hyperparameters (\texttt{args, config}), and RNG states.
+\end{itemize}
+
+\item[\texttt{def get\_args():}]
+Parses command-line arguments including:
+\begin{itemize}
+\item Training settings (\texttt{epochs, batch\_size, lr, fine\_tune\_mode}).
+\item Model configurations (\texttt{hidden\_dropout\_prob}).
+\end{itemize}
+
+\item[Key Features:]
+
+\begin{itemize}
+\item Supports two fine-tuning modes: updating only the classifier (last-linear-layer) or full GPT-2 (full-model).
+\item Implements masked mean-pooling for sentence-level embeddings.
+\item Handles both SST (5-class) and CFIMDB (binary) datasets via configurable paths.
+\end{itemize}
+\end{description}
+
+The results are written to csv files 
+\begin{itemize}
+\item \texttt{last-linear-layer-cfimdb-dev-out.csv}
+\item \texttt{last-linear-layer-cfimdb-test-out.csv}
+\item \texttt{last-linear-layer-sst-dev-out.csv}
+\item \texttt{last-linear-layer-sst-test-out.csv}
+\item \texttt{full-model-cfimdb-dev-out.csv}
+\item \texttt{full-model-cfimdb-test-out.csv}
+\item \texttt{full-model-sst-dev-out.csv}
+\item \texttt{full-model-sst-test-out.csv}
+\end{itemize}
+in the folder \texttt{predictions}, for fine-tuning modes \texttt{last-linear-layer} and \texttt{full-model} respectively. And the models are saved as \texttt{sst-classifier\_last\_linear\_layer.pt, cfimdb-classifier\_last\_linear\_layer.pt, sst-classifier\_full\_model.pt, cfimdb-classifier\_full\_model.pt}
+
+\subsection{Paraphrase Detection (\texttt{paraphrase\_detection.py})}
+
+\begin{description}
+
+  \item[\texttt{class ParaphraseGPT(nn.Module):}]  
+    A GPT-2-based model adapted for paraphrase detection:  
+    \begin{itemize}
+      \item \texttt{\_\_init\_\_(self, args)}:  
+        Initializes a pre-trained GPT-2 model and adds a linear classification head (\texttt{paraphrase\_detection\_head}) for binary prediction. All GPT-2 parameters are fine-tuned by default.
+      \item \texttt{forward(self, input\_ids, attention\_mask)}:  
+        Computes logits for paraphrase classification:  
+        \begin{enumerate}
+          \item Extracts GPT-2 hidden states and selects the last token's embedding.
+          \item Passes the embedding through the classification head to produce logits.
+        \end{enumerate}
+    \end{itemize}
+
+  \item[\texttt{def train(args):}]  
+    Training pipeline for paraphrase detection:  
+    \begin{enumerate}
+      \item Loads Quora dataset splits (train/dev) and configures data loaders.
+      \item Trains the model using cross-entropy loss and AdamW optimizer.
+      \item Evaluates on the dev set after each epoch; saves the best model based on accuracy.
+    \end{enumerate}
+
+  \item[\texttt{def test(args):}]  
+    Evaluates the model on dev/test splits:  
+    \begin{itemize}
+      \item Loads the best saved model.
+      \item Generates predictions and writes results to CSV files (\texttt{para\_dev\_out}, \texttt{para\_test\_out}).
+    \end{itemize}
+
+  \item[\texttt{def save\_model(model, optimizer, args, filepath):}]  
+    Saves a model checkpoint containing:  
+    \begin{itemize}
+      \item Model/optimizer states, training arguments (\texttt{args}), and RNG states.
+    \end{itemize}
+
+  \item[\texttt{def get\_args():}]  
+    Parses command-line arguments including:  
+    \begin{itemize}
+      \item Dataset paths (\texttt{para\_train, para\_dev, para\_test}).
+      \item Training hyperparameters (\texttt{epochs, batch\_size, lr}).
+      \item Model size selection (\texttt{model\_size} supports \texttt{gpt2, gpt2-medium, gpt2-large}).
+    \end{itemize}
+
+  \item[\texttt{def add\_arguments(args):}]  
+    Configures architecture parameters based on \texttt{model\_size}:  
+    \begin{itemize}
+      \item \texttt{d}: Hidden dimension (e.g., 768 for \texttt{gpt2}).
+      \item \texttt{l}: Number of Transformer layers (e.g., 12 for \texttt{gpt2}).
+      \item \texttt{num\_heads}: Attention heads (e.g., 12 for \texttt{gpt2}).
+    \end{itemize}
+
+  \item[Key Features:]  
+    \begin{itemize}
+      \item Processes input as natural language prompts (e.g., “Is `{s1}' a paraphrase of `{s2}'? Answer `yes' or `no':”).
+      \item Focuses on the last token's embedding for classification, mimicking next-token prediction.
+      \item Uses masked self-attention to handle variable-length input sequences.
+    \end{itemize}
+
+\end{description}
+The results are written to csv files 
+\begin{itemize}
+  \item \texttt{para-dev-output.csv}
+  \item \texttt{para-test-output.csv}
+\end{itemize}
+and the model is saved as \texttt{5-1e-05-paraphrase.pt}.

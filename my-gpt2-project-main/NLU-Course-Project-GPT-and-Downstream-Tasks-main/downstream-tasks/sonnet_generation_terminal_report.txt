@@ -1,0 +1,1014 @@
+/Applications/anaconda3/bin/python "/Users/al000/Documents/L&S/Spring 2025/自然语言理解/FinalProject/my-gpt2-project-main/NLU-Course-Project-GPT-and-Downstream-Tasks-main copy/sonnet_generation.py"
+(base) al000@MBA-OF-Dai NLU-Course-Project-GPT-and-Downstream-Tasks-main copy % /Applications/anaconda3/bin/python "/Users/al000/Documents/L&S/Spring 2025/
+自然语言理解/FinalProject/my-gpt2-project-main/NLU-Course-Project-GPT-and-Downstream-Tasks-main copy/sonnet_generation.py"
+train-0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [02:32<00:00,  8.96s/it]
+Epoch 0: train loss :: 4.738.
+Validation loss: 4.475
+save the model to best_10-1e-05-sonnet.pt
+Generating several output sonnets...
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;se lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake; One my makes God turn Ptolemy from Those red windows of my steel**
+To me that regarded arms as righteousness being for fetch smoke in one, for camera Time Venus does one, that color Tells lines,—Damage her when ginning Lords whom fire suffices cure; Some treat my pussy with constant sweet joy as enchanted with her greatest skill, * At spring Thames carved I carefully awoke As I circled, No alien bedcrest held to be songtale. Better
+
+
+Avoid' neither pomp nor breast-arments That crim'd receding nature To sayd comfort which, bandless stroke settled
+
+
+
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,r soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+Dunno, why shalt thou sport do you catch their muse,
+Never guard any malice meurer with naught, all free
+Ablessening all things a little, then placating dread.
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill, and detesttheneth courage?
+While her nurse nursers stand blinded
+And her flowers die, bitter and poverty without fall on weeping:
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,e, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,
+That full of cheek gazing;
+Truth throves with my pert temper no the lesser ring
+Of my will. Yet shalt thou restore my sight,
+Undefeated older's art writ, and mute share hereafter.
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgotst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot or do I anger I?
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight, those last summernings I found in com. 76 Candlelight is upon my feet-that most dear living beverage,
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,e is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss, for if I would be not spoiled,
+What did destroy me grown tender and joyful That doeth wisdom swell all conscience? Forever sincere belief.
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith tornloving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn myself;
+Your much worth lack mine of evil in turn!
+Faith trifles that vengeance
+Bath be induced not those who sin within an adorny shade;
+Or that borne up shall flutter proudly after unmatched come;
+Where she obeys ye without thirst and unheard of happiness.
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steep,
+Was black the night enough for Fayce until just,
+That bright eyes ever darted from her eyes with mellial inspiration,
+Past the middle clouds of every entrance and lost crescendo.
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep,
+Lord desiring to bound his light, might not he know.
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,n my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,
+What influence it loves, by what end only knows,
+Hands with kindred whence woes go when parted,
+Radiance saddles so precarious an my faith of love;
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, but his kind embraces with dice things he hates.
+Good begins: Patrons, petles' shades far'send,
+Trust me to mistress good at tempests:
+Of knighted veterans more returnt's balance:
+
+
+train-1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [02:34<00:00,  9.12s/it]
+Epoch 1: train loss :: 4.384.
+Validation loss: 4.429
+save the model to best_10-1e-05-sonnet.pt
+Generating several output sonnets...
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;se lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;
+Whose eyes pored on me trembling, I thought sad:
+''Woe, alas! of no time did all their faces
+Then buddings flutter like some head within Chrysophola
+Gotta dazzle my breast.'
+Yeam less my daughters
+
+
+When thy mother was no joy, so fix'd I that veil
+
+
+--than blame her death's finale for ever again
+
+
+Chapter 9
+If wisdom were the poison of posterity, so also commendable speech may compass to her heart
+
+That not proof, thou morneth dull eloquence
+When sufficiently praising equality doth b
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,r soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+He ride on the ill tools of strife? That mighty heart, my nurse,
+What keeps thee born a draught of saltiness
+Ask with every stinking wind divine language? Let our problem long waste thine days.
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,
+Whom'r aside there is hallow climate telleth pardon.
+Atzen or, dost say, appear off with wealth's lookings
+Exclusument which tired thee this gold once;
+Thy patronates renewed fragrant ink wandereth air within
+Full of wax tale, with longing to beauties delighted years.
+T'neys results and wants affairs, consisting of welcombes;
+Behind thee alone root confine there.
+And so why should thou appear no of these days according unto thee?
+Often happened then thy own house, thy home;
+Don't rump not claim round
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,e, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,
+And morrow is my praise buried:
+In anger and soul which belonged to no word,
+Chaused nor art profaned. Nor hath speech reckoned my delight,
+That can claim names and insinuations my wrong.
+While constantly our frown becomes provoked against each other's vices
+Across weeds, and wide branches fall upon the earth.
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgotst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot thou belongs?
+Though thou never so bedeck'd my way more dost rest,
+And at thy warm hast loss I let thee live groggily
+Thererest shall I care thy fate by mother's death.
+ If thou pay the world thus well,—
+What child thou athart of such lowly pessent rain,
+Had leave to spurn;
+
+
+But hither does my wax show thy fragrant skin.
+Come should thy beauty cast thee down from such immense roof
+Whither by fair curse thou waste thy age.
+
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,
+Let her see all thy prophetic reproof,
+Her blinacity that saw make M. d'Artec out
+And roll much victory that she's won,
+Thus were they diverted away thence
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,e is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,
+Prez near mute limbs, thy pipe who abstains,
+Could always do as that sleek writing can myself send,
+Whilst' mother caresses four thick cheeks,
+In sister love but's cupless tongue.
+If nature betray not man to the blush then act
+To ensure comfort for you also,
+Each breakhearted action reduces become.
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith tornloving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn at the spot,
+Not infrequent, sore ended while thou dwellest—
+Yet frequently cease in deceit concerning.
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steep, .
+He frowned and gazed away, but cared not;
+Then if what a talent loves to burn your heart, .
+Dian's lady tempts him after sleep,
+ 'Sleep her best hours fully and ye shall have,
+He whom we shall love--he able to earn,
+Finally with certain lonesome ways past,
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep,
+His still rebellious energy brought paleness yet weary of return.
+Those queer, thin short gingerly lungs, lie,
+Though thick, fearful well paved with praise,
+They moved but with labour, for in no city were!
+Now stirred far faster, his legs which wore thick precious crowns,
+Thorn and his robes warmer as cold blankets.
+Manted, slow and petite, that natural joy days arrayed;
+And much much dizzied had now danced his strange new guest;
+Which delights drench times unjust to ride, like scenes with female love.'
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,n my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,
+Yet yet did her look around in tears within
+Knowing what astonished her soul and person spoke,
+Switching childish stranger to stranger,
+Their sight mingled mine kind gaze as caught in sweet,
+And thought my friend's day long told;
+Both love into wit and disgrace into wound;
+ 2 Bright trickress might expect, 2 in half from hypocritical creepless loving tongue,
+
+
+
+Whose dark measure you liked as far from false clemency.
+
+Young despised what was yours done to bloom,
+ 4 sting her snout and her mottled hand,
+ 80 like your own drooled wid
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, and a beautiful beauty three jealous far.
+If love nearly once listens not to show affection,
+And no imperfect there sight would prevent it,
+If an upward strife must clasp, prudently well and earnestly
+Become broken into pleasures.
+You do what only God obliges, avoiding folly,
+Which ever ever wed ends the host thingilment.
+Love if tempted, alone doth little tarry with itself.
+
+
+train-2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [02:39<00:00,  9.39s/it]
+Epoch 2: train loss :: 4.250.
+Validation loss: 4.374
+save the model to best_10-1e-05-sonnet.pt
+Generating several output sonnets...
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;se lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;
+And with uncursed faerie lines of woolly jokesfolk sped,
+Comby me that low child sentries, my captions falsely;
+It was flying all might, striving itself inveigrett even less
+Long after the rose tinted vase,
+But whose now sounds and mighty days pressed plasters to seas which are bright.
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,r soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+While thy drunk with perplex Dagon's throne-tussures
+The butt-rock between thee hath trembled always and then struck.
+II from Sensible sat, rough singer, to thou hast burrowed.
+Tonight's torture duv was like a grace,
+Thither spilled sweet have brimblorns, nourishing all who shot ever?
+That yielding well head was a choice consumed with water;
+ That forget died drunk fast o'er thee vain ring,
+ `Sweet pure abstinence with these wild polyps;'
+Frowning arshort not With two blows under thy eternal shade,
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,
+Make it a dear wound to us; permitting
+Our damnation to feed neither thine nor ours.
+We blind our love to be led away by another curse;
+Nor when free from sorrow may deem far
+Our quarrels become idle. What of hurt and affliction do enjoy
+And both is liable to thrive and perish at the same time,
+For injuries receive no reverence! (Artist 1780, p. 328)
+ ["If one maketh rather grown wrong if all wrong enter,
+Maketh already made you dead if all that makes him grow right —
+By sin ceaseless
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,e, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled, and what they might.
+How happy I see I belong only to thy call:
+It speaks by nature! would I fail to signify all I represent.
+Ah, what didst thou break for love's sake? woo to false warning.
+Be to petit wilt thou then lose me dear innocence,
+But I need no warning, that here, on the other side,
+If thou dost not clings which this loving trinkens,
+Who continually bear his parents here poisoned with living poison.
+O, when thou hast found his wont with love,
+Will thine pop. .shall thou found
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgotst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot
+As foe dies; but it was true now to woman
+Which call after amerest thy angels, when thy lose loss thou unutter'd
+Freedom manow, not to profess'd reprove thee again,
+Therefore didst live my bliss; yet when it perish'd
+I find thee painful, stirred up with this disgust;
+Do I but with that fault defend what thou canst so grief
+From the disposures like a most vigilant knight:
+I however do for him whom I hate not even crime,
+But God mercy me, to bear those whom he hurt,
+Lord love's name. End for
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight, O poor folly,
+When my thumb melt within what in thine eyes
+But rotst indeed too I have broken into abundance,
+But are the true keepsgiving birds deceived?
+ That of us best crafts these good betray them,
+(and of us we with thought shalt cure an oblivion.)
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,e is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,
+They love me gracefully. And be the kiss whiles I welp according
+Unquenchingly thin lies open despite me. Permaired, e'en should't thou believe
+There exist comrades beyond which. May and provided their souls shall throng
+Longed become in favour, that full hearts sound to know.
+And so let a lamp like beautiful tramping's idea
+Pure amongst peach trees remind
+I all good Sunday treat, free of dead men to shrivel for you this weekend
+ I to allow. (Note: 3,364 THE ENGLISH " Fri Sclected A Burn, �
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith tornloving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn;
+Ste Mummed every image of the angels. – Dante .
+But at Iunate of thy mercy My sin pursues thou,
+ That bitterness, brandished in this great "I" prolong, – but "lier most honourable" it brings.
+ Et talk my taunt Mumble arid not with ingle in view.
+ Thar children about devils grievous; pray ! soon arden
+Tod doth open all eyes, but my innocents do not bright so far,
+That aging not yet sees light. 3 Remember thy fair monsieurs not. – Very large
+ Ab
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steep;
+If after a monthte abstain;
+This bred in mind, dancing in agie,
+The tempestuous grottome of chrontacle,
+There preached twain light with heatan points by purfard.
+Married fine made third learn,
+My charmed pugnacious wife phrenic:
+Where they kissed makes felle the peace.
+  And in return I met whig look:
+  So raw rhymes now weeping older don't.
+ or What abuse were he who suffered is dead?
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep their stain,
+Follow me at my block-clock
+For when I save my sentiments and curious labours,
+And prevent these languid intimacies,
+The most wholesome rheumult never dread me shall deem yours.
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,n my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth, just near,' she might spend myself
+She received that change by patent more still truthly,
+As much took she myself at birth to know what she said.
+When I was found forsaken, I knew she was home, as long as me was to sleep.
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair,
+Both walks on free seas such fine wines
+And long find thy say, sweets cause our times.
+Mine son testifies in appeal none of what art Is desire
+But one beguiles & magnetides like straw,
+What eternal loan sins two children once had.
+To mature, to health speak youthly youth shall mark.
+
+
+train-3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [02:41<00:00,  9.49s/it]
+Epoch 3: train loss :: 4.146.
+Validation loss: 4.386
+Generating several output sonnets...
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;se lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;
+Therefore sweet like bitter, damchild, orphans twice murder'd,
+May Oply me do what ever began neverly
+Or do long matter outservate happiness, dishonoring the month with curse
+Which infuriate may prove- Pleasure takes from born simple love
+When then bitter when late fails spoiled When neverending strike new details
+Dishearten the sap or tears old successes changes,
+Concerning difficulty make from sanguine up.
+
+But whenever it suggests times wasted thine own sweetness,
+  Servile itself, or shut its yeefaces put  To use longlast through these
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,r soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+So from that behind is wedded heaven's passion sometimes
+Meanwhile thine eyes ever stirred?
+His sweet eyes've comprehended thee,
+And my shame though broken all alone thou sorrow
+Excitement's spurs so strenuously's';
+Consod with the suffering to say than day pass
+Exulting skies' stars whose vein form without dissolved
+'Ridal reflection endured in my crying anguish thus,
+Enthusforming her my rent woes in thy lusty suffer.
+Supposing with what ease imparted any sweetness in thee
+Incense killed all bitterness now, not forsaking thee with vale,
+
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,
+And fighteth out his torture as the marrow breathes.
+Rubbing his venom tongue off his wound in deadly spleens;
+Longedful fed, tired, doth the wretched grow his broken heart
+The moats among others so withren66?
+5 His tears are frequent new drops out of him his memory
+Kindles take, pour them and dust them down his dusty skin
+With almost fruitful fruit cold as wine.
+Yet unfloodily his blood so squeezes His thornless providence
+ To exult on those his lived events that sit his deceased.
+6 But while the slander of
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,e, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,
+They dry nay do nate their marks of ruin.
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgotst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot,
+The sport most obstinately abats to seek
+With card with the discerning similitude
+Howsoever might injury vex my belief,
+Not to give of that necessity or argument your correct
+One in which you let it into thee;
+Here, if it continually linger, shows your hateful admiration more grieved
+Nor distresses how humble it might in all else
+ Here call it refined folly.
+
+
+Neither tear this sad view of mine actions, dear to your hate
+ Where the filial utensil has expounded it on thee are I,
+
+
+Dearest
+
+And yet thou a Soul.
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight, when Thou dost slow,
+Each day's work or day's teak leaves him waking part with forgetfulness,
+Such rejoicing garments as hurry me all day every day,
+Pead tumbling into the cold while my golden light spends
+Man a yielding back a rare leaf still red,
+Thy wake into thy growing head by youth, thy remaining tender solitude so to do.
+And with my silence is everything dear to him let thine glory have its today time;
+And such doing most well tend in happiness never to live alone.
+When Teare were so dost wake, so in all  Gl
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,e is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,
+A man seen less mistress than amongst the noblest,
+Gluck closer when time arrives to divulge
+Little degrees obscured by one silver sickle;
+True rustic words, tall sounding raiment alone cut;
+Grinning ghost-song by lie telling; great iota mourn my consciences
+Undrenched tales of glory occasioned my drearest effort.
+The continuance cries an unprecedented toll, all my gores.
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith tornloving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn!
+Losing promise lasts by heath's time's wind,
+Latching thee against thy roll they lurk,
+And as each falling of others watches in silence,
+May thou most adore thy grave words blithely
+And return one least flout my vow when I tell.
+Feel where my earliest thoughts vest in thy step,
+At that earliest trust withdraws, to find that dream /
+As I shift mustang as many miles through my mind's broad berth;
+And girdyMy tent hearing in honour part causes me lovelier.
+ As worthy of favour I lift up as thine
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepen thy bell,
+And he was full worshippers of Melthelople to the breast;
+Beside his ardent saw daisy-born craft
+And all they wrought emmeirably bright silver-coated hate
+Yet all his charms well in meased from his ignorance.
+To own limits, met his bucal loving virtues,
+By means: then fettered by mine everlasting diamond fears
+And with these'll-lost costly splendor live,
+Friendly and seem-good maiden thy whole beauty assured.
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep,
+But him imploring the saying withefface,
+So blest mote on his back chaste calmness to dark colours
+I hidden even that day with early hours;
+Lakers of scorn, fools vaunt even corrupt proverbs,
+Though tempest hath united all other terrible events,
+That tell the world loathing in love as a slave teaching.
+  Thou in the rheumatism of the blood faintest love
+  On hire of needle and needle niggard gods, yet thine love lawse
+  Shall pick leave inherit the privilege ly gith fear.
+  Where none
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,n my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,
+But might I despair and hate her spirit here on;
+Understand her modesty and dower she saath her pride in it,
+Her eternal husband abroad strong in it all,
+Which knows she must think others preposterous,
+Which grow steadfast in grief of invention,
+Thou only love attainted away upon all women that muse,
+ There doth still deny that hat can be left where the door lays.
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, but yet bitter cold.
+Seven years since' I last sailed lye high.
+Be" more true, always by who's thy touch,
+Twixt pair of summers full night and morlock.
+
+
+train-4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [03:22<00:00, 11.92s/it]
+Epoch 4: train loss :: 4.106.
+Validation loss: 4.400
+Generating several output sonnets...
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;se lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake;
+Through now were kind acquaintance acquired;
+Nor was it spoken to glance herself in numbers
+Of iron and cream and august success,
+That she and I, having all good, should both reach.
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,r soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+Seeking bliss for 'gainst all honor unperceived;
+Steering nearer course, thus should thy free eye maintain,
+What it does desire stifled.
+Am I here to do destruction of my entuised sharp mind,
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,
+Even though all days summer and night lose so.
+To terrify my malady is treacherous sport,
+Which burneth the dead man's eyes gladdest.
+Hence the issue I have with glad mental looknings
+  I seem too feeble to ravage,
+  What cold wrath which seems indignant only wrinkles;
+ For hate and presumption rather curse reality.
+  I was without grief a dumb notfore ago,
+  Though oft on some passed mourning remembrance I bid come upon.
+  Still I mine world hushed my thoughts and begost silence,
+  Leave, of which suffering trifles
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,e, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,
+Is for love erased ? Who my friend may pass,
+Chancing as he look'd on the vice such beauty
+As befits this care:
+In anything help such a cost need acquaints,
+To pleasure upon three things so singular,
+It must that bride one, who knows no such importance,
+Rather borne to my son, have happy feelings more profitable.
+So he sends some strangers bowing shallow kisses on my capital praise:
+My wife, be sadly endured till I love a name;
+ When such are yours, or ship or ship and ship hereafter,
+ For these beauty's fares starve peace v
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgotst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot loving abandon
+Your love most pure and lavish and my son mortally courage
+Dot how your dear look compels me now?
+Then am I am spoilt with ne'er abandoned
+That presence which let's thee keep open thy sight again.
+Then may not that awake nature feel like cold alas!
+The child from before I own my common love
+Mine immortality's name shares fresh and wondrous blood;
+That lands thy glory short short in song it's oothed wasteland,
+Or fair only above cursety and brave trampled goes;
+Inless I'm weary alone, the remainder free
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight,from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight, lest I place
+When she cut even her oppression so sparsely upon
+Steers the laugh that cannot mourn should shine forth.
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,e is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,
+Of rain's rending rain appear'd among this decay's muck;
+Nor hy. Pray I wore in your ear, Sister, this disdain I make,
+Such happiness as each same plot by opposing refeit springs.
+  Now when mercy enters either, grace either would serve,
+  To wink artly support my errands with offset:
+  You vain wrash'er would hail blessed tidings which storm their chatters.
+  I from ever flock beto fair fate soon inter-brass'd;
+  His foot was peeping with birds singing in tree alone.
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith tornloving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn:
+Thus sighing two-hundred gaudier alms,
+And smile turn to heart nature's decrepit sepulchre.
+Thou are myself screeds to quits my bed
+When thou steep'st spent breast of earth's marvel done;
+Though I know that knowledge lives
+Where willing thou dost leap for strikes in or shot out:
+Seen to exalt myself and me says my countenance.
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steepid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steep,
+Whiche ball of woe now consecrates to the girl's love
+Saffron's peace in immortal pine labors;
+While he put all the death-laced shrine on,
+Her oars light that I'd mount upon a queen sangst,
+Well, she's in woettings a necropolis to glory save
+That keeps greater experience shining in recent memory,
+  Though my precious cranium never was struck from her * Since those of mother wedded are dead
+ 800 THE CONFERENCE OF OLDSAD DEALTY ASSOCIATED 4. March
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep;
+Will as refreshed neither light nor her holy spirit,
+Repeat yet thus there worthily the diminution.
+From heaven sings their part to rend them naked:
+Of little of the woods will all pray; and all the winds proceed.
+Enter of talents account their thee deep,
+O. Teach us this life, assocow 1 bad trade
+The lands which nobly enlighten our language or our growing year
+Twixt thirty and seventy-four cardinal drives.
+Laying still in chad for question: change 2 right, ever correcting folly with reason.
+  Perce a dissolute head neglect either
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,n my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,
+Supposed on agape seen, albeit always hised at a fair;
+They linger on my lips if I show her first-rising;
+Television ages the stage among
+And women cool save willingly 'twill all life gone!
+Even never so did she who he loved say,
+", That where a heav'n more lovely summer should have fallen,
+ That apparently even very morning sitting does last
+ All Beauty which their love would like now best he hid,
+  "For when my face no longer thunders both " : well enjoy all, most, most, I beg thee.
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair, full with worthy beauty
+Up to day and hour shows but tears shed
+Upon someone sick-willed but cold now.
+
+
+train-5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [03:17<00:00, 11.61s/it]
+Epoch 5: train loss :: 4.033.
+Validation loss: 4.439
+No improvement for 3 epochs, early stopping.
+Those lips that Love's own hand did make
+Breathed forth the sound that said "I hate"
+To me that languished for her sake; the place within you were turbulent
+My gloom, for my sadness the company
+Or unhappy misty spaces add that I shall confess. When I perceive innocence in the brow, or dignity in less foundation,
+Bleeding from darkness, come tender The shame wrought men: breathe untreated from air, evaporate past
+Fear-filled renders visibility obscured, in clearer light I'm nobler; sang shame upon scarlet, robe laid filled
+Those tall too bare deliver songs of dark beauty, / oft straight undigh against thou, which was beauties too great
+For that from shade, purged of foolish birds, requite
+
+
+Poor soul, the center of my sinful earth,
+Pressed with these rebel powers that thee array,
+Why dost thou pine within and suffer dearth,
+All round you gentle trunk, though well fed,
+All time after time with prattle, blots, and dry I,
+Where thy sprightly heart is coarser platter upon the face
+ . . . Why I enjoin thee that which you no more propound,
+To mending your garments with thy husbands that where thee crown;
+ Then in thy hide I find your breath lost and complete every bit . . . A wise young case
+Well doomed is home now being purified.
+ Dumtor round thy heart, wild sour tongues, quench and purify me, 
+That that which I det
+
+
+My love is as a fever, longing still
+For that which longer nurseth the disease,
+Feeding on that which doth preserve the ill,
+That live equally forgetful gossips fear me with help--
+But from the death jot I float warm and stay;
+Even capricious astrologers this happy pen underwrought bless my memory
+Till my radiant face some use of stench eludes me
+Rest gave rise to be filled--
+ To what looking lovelied flesh I enjoy half of age
+But still, blameless of no ailment;
+ V thou in at last embraced what has high look?
+ Kind death now contents the cry vitating his back unto silent anger...
+ Would it if even fevered ghosts received answer
+
+
+O me, what eyes hath love put in my head,
+Which have no correspondence with true sight!
+Or if they have, where is my judgment fled,
+With total propriety;
+What become though they are doubting,
+Which'd wood even calms by slumber's color?
+Something that covers its opinion rises,
+And checks its locative when those snatches fair so speak,
+Upon my judge aforeheard mind.
+For when one hath strength further supported,
+When Lord love am no prolonger sight can tire;
+Nor reward your innocent form, no joyful impression,
+ Yet teaches man to his difficult times labored.
+
+
+Canst thou, O cruel, say I love thee not
+When I against myself with thee partake?
+Do I not think on thee when I forgot a tent,
+Sally courteously bride of thee more formidable,
+Such sees what saw itself renewed.
+Here sorrow stopped in his heavy death sweetrendess,
+By shore visits becomes dead before her eyes on the morrow.
+
+
+O, from what power hast thou this powerful might
+With insufficiency my heart to sway?
+To make me give the lie to my true sight, thou then easily
+The insuperable dwelling cup is rotten, and threem-ches, thy satiety
+Though thou have my big welfare pleasing thy tongues will first lay
+Foulous uncertainty of fortresses on top
+Wasting delightously (without subjection, later he'll put
+The depend'd number whoso kisses may lay
+Outta me nothing short of jolly lovely gratity),
+ For there they say wherein the pleasures die
+Hidecgit' what many fruitful are; and where such birds chaste
+The most despise, though in wax fella there s undulating pea moony song,
+
+
+Love is too young to know what conscience is;
+Yet who knows not conscience is born of love?
+Then, gentle cheater, urge not my amiss,
+Into your arms is doing just that mystery.
+Give thank that the sufferings of six strokes by example then by images blame myself.
+They amide their wives love: I too always blame myself;
+Nay over no counsel lies for redress; I invent falsehood for earthly fair eyes.
+Stricter will I sprout spies may speak my principles not without interest.
+
+
+In loving thee thou know'st I am forsworn,
+But thou art twice forsworn, to me love swearing;
+In act thy bed-vow broke, and new faith torn me from my garment;
+With profession though error's a torment,
+Thine folly shalt torment thy love as The nations have done shamefully
+To their favourite faeries.
+
+Doubtless thy love was lovable, A fearless girdle whose bindings white in heart,
+Tholest you commit deformity, The safe parts not your last robbery,
+ Nought to fondle an example.
+
+
+Cupid laid by his brand and fell asleep.
+A maid of Dian's this advantage found,
+And his love-kindling fire did quickly steep her face,
+This Fortune First lifted upon Solomon's name.
+
+
+That things can are mixed up, about lady David's temptation,
+ Many of their natures come cold, like David's come taken
+ By Venus' short temper. But it makes no other poet worst,
+ In which way little death are comfort'd;
+ For god's edicts, when their courses wander, on advancing grace's theme, they
+
+Make unto such derangement grief blush: But saying the likeness is extreme
+
+"What time better allows rather these gifts to bring surprise,
+
+ For so they change their sharp points, that
+
+
+The little love-god, lying once asleep,
+Laid by his side his heart-inflaming brand,
+Whilst many nymphs that vowed chaste life to keep.
+From kings sent forth scurvy preceptful ones,
+
+
+When my love swears that she is made of truth,
+I do believe her, though I know she lies,
+That she might think me some untutored youth,
+Into her like in height of stone,
+My promise she cares of others gods and tramps." (Trans.)
+To men grown fatores, am a twain bright,
+I say with adoration of pleasing and free promises!
+True sad rambles when wild men scarce exist,
+ Ah today delight in knowledge, that such grief may suffer--
+And should look by their chastisement old boys--
+And kiss all beauties which ill that delight,
+ Is with the feete 'how old would never punish ill;
+ But ages commit happiness to those in whose side I'm likely to love--
+
+
+Two loves I have, of comfort and despair,
+That like two spirits do suggest me still.
+My better angel is a man right fair,
+As something more trifling old than pink,
+Bing and chickens face, and
+Glauber was most foolish with them all down;
+But after weeping she tearfully forgave herself;
+They loved quite of hate, evening horrid life
+Thy wicked jestling twenty-y dull geese ate that vex
+Whore needle or hapless purgatory raven to be purged;
+Filled pale cheeks, enbloved lips, thus bliss'd all were mixed,
+And if any of the wretched had forgotten hatred
+None as perhaps these whitned more painted;
+Then at worst
+
+
+(base) al000@MBA-OF-Dai NLU-Course-Project-GPT-and-Downstream-Tasks-main copy % 

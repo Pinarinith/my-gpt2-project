@@ -1,0 +1,28 @@
+Loaded 283003 train examples from data/quora-train.csv
+Loaded 40429 train examples from data/quora-dev.csv
+train-0: 100%|████████████████████████████| 17688/17688 [27:46<00:00, 10.62it/s]
+eval: 100%|█████████████████████████████████| 2527/2527 [01:16<00:00, 33.03it/s]
+save the model to 5-1e-05-paraphrase.pt
+Epoch 0: train loss :: 0.368, dev acc :: 0.866
+train-1: 100%|████████████████████████████| 17688/17688 [27:48<00:00, 10.60it/s]
+eval: 100%|█████████████████████████████████| 2527/2527 [01:15<00:00, 33.41it/s]
+save the model to 5-1e-05-paraphrase.pt
+Epoch 1: train loss :: 0.282, dev acc :: 0.880
+train-2: 100%|████████████████████████████| 17688/17688 [28:02<00:00, 10.51it/s]
+eval: 100%|█████████████████████████████████| 2527/2527 [01:17<00:00, 32.69it/s]
+save the model to 5-1e-05-paraphrase.pt
+Epoch 2: train loss :: 0.237, dev acc :: 0.886
+train-3: 100%|████████████████████████████| 17688/17688 [28:09<00:00, 10.47it/s]
+eval: 100%|█████████████████████████████████| 2527/2527 [01:17<00:00, 32.55it/s]
+save the model to 5-1e-05-paraphrase.pt
+Epoch 3: train loss :: 0.201, dev acc :: 0.891
+train-4: 100%|████████████████████████████| 17688/17688 [28:10<00:00, 10.46it/s]
+eval: 100%|█████████████████████████████████| 2527/2527 [01:17<00:00, 32.79it/s]
+save the model to 5-1e-05-paraphrase.pt
+Epoch 4: train loss :: 0.170, dev acc :: 0.893
+Loaded model to test from 5-1e-05-paraphrase.pt
+Loaded 40429 train examples from data/quora-dev.csv
+Loaded 80858 test examples from data/quora-test-student.csv
+eval: 100%|█████████████████████████████████| 2527/2527 [01:18<00:00, 32.19it/s]
+dev paraphrase acc :: 0.893
+eval: 100%|█████████████████████████████████| 5054/5054 [02:34<00:00, 32.71it/s]

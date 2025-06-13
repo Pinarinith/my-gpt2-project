@@ -1,0 +1,419 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amsthm}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{float} % 为 algorithm 的 [H] 选项提供支持
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, urlcolor=red]{hyperref}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usetikzlibrary{positioning}
+
+\newtheorem{assumption}{Assumption}
+\newtheorem{lemma}{Lemma}
+% 定义 theorem 环境（按章节编号）
+\newtheorem{theorem}{Theorem}[section]
+% 以下环境共用 theorem 的编号
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\Ito}{It\^o}
+\newcommand{\sgn}{\operatorname{sgn}}
+% 如果希望 Proposition 与 theorem 共享编号，则使用下面的语句
+% \newtheorem{proposition}[theorem]{Proposition}
+% 如果希望 Proposition 独立编号，则使用下面的语句
+\newtheorem{proposition}{Proposition}
+\title{Final Project Report: Building GPT-2}
+\date{\today}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+  \section{Basic information}
+
+
+  The proposal should have the following information at the top:
+  \begin{itemize}
+    \item \textbf{Title:} A Framework for Building and Fine-Tuning GPT-2 Models
+    \item \textbf{Team members:} 
+    \begin{itemize}
+      \item Songlin Songlin (\texttt{zhousl24@tsinghua.edu.cn})
+      
+      \textbf{Contribution}: Doing theoratical research and writing project proposal, 
+implementing the structure of GPT-2 within the process of
+\href{https://github.com/AGIXLab/NLU-Course-Project-GPT-and-Downstream-Tasks/tree/main}{Stanford NLU Final Project Guidence},
+which is the first part of our project.
+
+
+      Sun Zhongwei(\texttt{sun-zw23@mails.tsinghua.edu.cn})
+
+      Shibo Dai(\texttt{dsb24@mails.tsinghua.edu.cn})
+    \end{itemize}
+    \item \textbf{Custom or Default Project:} 
+      Default Project---Building GPT-2
+      % 若使用默认模板则填 “Default Project”
+  \end{itemize}
+  
+
+
+
+
+
+  
+
+
+
+  \section{Project description}
+
+  \begin{itemize}
+    \item \textbf{Main Goals:} 
+      \begin{itemize}
+        \item Use the codebase that is adapted from the final project of Stanford CS224n with pre-trained of GPT-2
+        and implement some important components of the GPT-2 model to better understand its architecture.
+        See \href{https://github.com/AGIXLab/NLU-Course-Project-GPT-and-Downstream-Tasks/tree/main}{this link}.
+        \item Fine-tune the pretrained model on multiple downstream NLP tasks: 1)
+        Sentiment Analysis, 2) Paraphrase Identification, and 3) Sonnet Generation.
+        \item Train a mini-GPT model from scratch without loading any pretrained transformer weights (word embeddings are allowed).
+      \end{itemize}
+  
+    \item \textbf{Downstream NLP Tasks:}
+      \begin{itemize}
+        \item Sentiment Analysis on IMDB reviews (binary classification).
+        \item Paraphrase Detection on MRPC (sentence-pair classification).
+        \item Sonnet Generation given a short Shakespearean prompt (autoregressive generation).
+      \end{itemize}
+  
+    \item \textbf{Data Usage:}
+      \begin{itemize}
+        \item \emph{Pre-training:} None. The pre-trained data is provided within \emph{
+          NLU-Course-Project-GPT-and-Downstream-Tasks}
+
+
+        \item All we need to do is complete the implements of the missing block of algorithm such as Multi-headed Attention,
+        Adam Optimization and position-wise Feed-Frward Network.
+        \item \emph{Fine-tuning and Prediction for Sentiment Analysis:}
+          \begin{itemize}
+            \item Stanford Sentiment Treebank (SST) (8,544 train / 1,101 dev / 1,101 test).
+            \item CFIMDB dataset (1,701 train / 245 dev / 488 test)
+          \end{itemize}
+        \item \emph{Fine-tuning and Prediction for Paraphrase Detection:}
+          \begin{itemize}
+            \item Quora dataset (141,506 train  / 20,215 dev / 40,431 test)
+          \end{itemize}
+        \item Test sets and methods are also provided in the e final project of
+        Stanford CS224n.
+      \end{itemize}
+  
+    \item \textbf{Methods:}
+      \begin{itemize}
+        \item Use the GPT-2 structure provided within \emph{
+          NLU-Course-Project-GPT-and-Downstream-Tasks}: GPT-2 small (12 layers, 12 heads, 768-dim).
+        \item Training with Adam, linear warmup (10 \% steps) + linear decay.
+        \item Fine-tuning: add classification heads for IMDB/MRPC; use beam search for sonnet generation.
+      \end{itemize}
+  
+    \item \textbf{Baselines:}
+      \begin{itemize}
+        \item For SA:
+          \begin{itemize}
+            \item Last Linear Layer for SST: Dev Accuracy: 0.462
+            \item Full Model for SST: Dev Accuracy: 0.513
+            \item Last Linear Layer for CFIMDB: Dev Accuracy: 0.861
+            \item Full Model for CFIMDB: Dev Accuracy: 0.976
+          \end{itemize}
+        \item For PD:
+        \begin{itemize}
+          \item \textbf{IMDB Sentiment Analysis:}
+              \item BERT‐base fine‐tuned (Devlin et al., 2019): 94.5\% accuracy.
+              \item GPT-2 zero‐shot (Radford et al., 2019): 70.3\% accuracy.
+
+            \item \textbf{MRPC Paraphrase Detection:}
+              \item BERT‐base fine‐tuned (Devlin et al., 2019): 88.9\% accuracy, F1 = 89.2\%.
+              \item GPT-2 zero‐shot (Radford et al., 2019): 65.1\% F1.
+        \end{itemize}
+        \item For Sonnet: Published BERT-base fine-tuned results (GLUE leaderboard).
+      \end{itemize}
+  
+    \item \textbf{Evaluation Metrics:}
+      \begin{itemize}
+        \item See Baselines for SA.
+        \item \emph{Accuracy} and \emph{F1} for IMDB and MRPC.
+        \item \emph{CHRF score} for sonnet generation.
+      \end{itemize}
+  \end{itemize}
+
+  \section{Songlin Zhou: Implementing GPT-2}
+  \subsection{Folder and File Roles}
+
+  \begin{description}
+    \item[\texttt{\_\_pycache\_\_}]%
+          A local snapshot of the \emph{official} HuggingFace
+          GPT{\tiny -}2 weights; it is loaded on demand by
+          \texttt{base\_gpt.py} to avoid an on-line download.
+  
+    \item[\texttt{Downstream-tasks/}]%
+          Example fine–tuning code for text classification, summarisation,
+          \emph{etc.}\;—\;not required in my assignment.
+  
+    \item[\texttt{models/}]  \hfill (central folder)
+            \begin{description}
+              \item[\texttt{\_\_pycache\_\_}]%
+                     Compiled bytecode and cached tensors; reuse of the
+                     pretrained weights.
+  
+              \item[\texttt{base\_gpt.py}]%
+                     Generic “\emph{foundation}’’ class
+                     (\texttt{GPTPreTrainedModel})\,: stores the
+                     \texttt{config}, performs weight initialisation
+                     and keeps track of global \texttt{dtype}. Every
+                     concrete GPT variant inherits from this class.
+  
+              \item[\texttt{gpt2.py}]%
+                     Instantiates the Transformer stack defined in
+                     \texttt{base\_gpt.py}, wiring the attention blocks,
+                     feed–forward layers, and the final LM head.
+            \end{description}
+
+    \item[\texttt{modules/}]
+    
+
+            \begin{description}
+              \item[\texttt{attention.py}]%
+                     Full implementation of \emph{Causal Self-Attention}
+                     (multi–head, padding and causal masking, output
+                     projection).
+    
+              \item[\texttt{gpt2\_layer.py}]%
+                     Combines \texttt{attention.py} with
+                     \emph{Pre-LayerNorm} and the feed-forward MLP to
+                     form one Transformer block
+                     (\texttt{Dropout $\rightarrow$ Dense $\rightarrow$
+                     Residual} per layer).
+          \end{description}
+  
+    \item[\texttt{test/}]%
+          Minimal unit tests for GPT-2 model forward-pass correctness and for the
+          \texttt{Adam} optimiser.
+          \begin{verbatim}
+            $ cd my-gpt2-project
+            $ python3 test/optimizer_test.py
+            Your GPT2 implementation is correct!
+            $ python3 test/sanity_check.py
+            Optimizer test passed!
+            \end{verbatim}
+            
+
+          The following steps demonstrate the verification process for the GPT-2 implementation and optimizer:
+  
+    \item[\texttt{config.py}]%
+          Default hyper-parameters (hidden size, \#layers, dropout
+          probability, learning rate, \dots).
+  
+    \item[\texttt{optimizer.py}]%
+          A clean implementation of the \texttt{Adam} algorithm.
+    \item[\texttt{README.md}]%
+          Step-by-step running instructions.
+  \end{description}
+
+  \begin{center}
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        \textbf{Code Repository} \\
+        \url{https://github.com/Pinarinith/my-gpt2-project}
+    }}
+    \end{center}
+
+  \subsection{Attention Module (\texttt{attention.py})}
+
+\begin{description}
+  \item[\texttt{def \_\_init\_\_(self, config):}] 
+    Initializes the three linear projection layers for \textbf{query}, \textbf{key} and \textbf{value}, each of shape $[H]\!\to\![H]$, where $H=\text{hidden\_size}$.  Imports all relevant hyperparameters from \texttt{config} (e.g.\ \texttt{num\_attention\_heads}, \texttt{hidden\_size}, \texttt{attention\_dropout}).  Defines a \texttt{Dropout} layer that is applied to the \emph{normalized} attention scores following the original Transformer paper.  Although somewhat unusual, we empirically observe that this yields better generalisation.
+
+  \item[\texttt{def transformer(self, x, linear\_layer):}]
+    Given an input feature tensor 
+    \[
+      x\in\mathbb{R}^{B\times T\times H},
+    \] 
+    where $B$ is batch size, $T$ is sequence length and $H$ is hidden dimension, applies a single linear projection (\texttt{linear\_layer}) to obtain 
+    \(\displaystyle \mathrm{proj}\in\mathbb{R}^{B\times T\times H}\), then reshapes into multiple heads:
+    \[
+      \text{proj}
+        =\texttt{rearrange}(\text{proj},\,`\;b\;t\;(h\;d)\to b\;t\;h\;d',\;h=\text{num\_attention\_heads}),
+    \]
+
+    which yields a tensor of shape $[B,T,h,d]$ and enables parallel computation over $h$ attention heads of size $d=H/h$ for speed and efficiency.
+
+  \item[\texttt{def attention(self, key, query, value, attention\_mask):}]
+    Computes masked, scaled dot–product self–attention.  Given
+    \[
+      Q,K\in\mathbb{R}^{B\times h\times T\times d},\quad
+      V\in\mathbb{R}^{B\times h\times T\times d},
+    \]
+    it first forms the unnormalized scores
+    \[
+      S = \frac{Q\,K^{\!\top}}{\sqrt{d_k}}\quad\Bigl[S\in\mathbb{R}^{B\times h\times T\times T}\Bigr],
+    \]
+    then applies the mask:
+    \[
+      S \leftarrow S + \text{attention\_mask},
+    \]
+    and finally normalises with a dropout to keep robustness:
+    \[
+      A = \mathrm{softmax}(S,\;\mathrm{dim}=-1),\quad
+      A = \mathrm{Dropout}(A).
+    \]
+    The output context is
+    \[
+      \text{context} = A\,V\in\mathbb{R}^{B\times h\times T\times d},
+    \]
+    which is reshaped back to $[B,T,H]$ before returning.
+
+    \item[\texttt{def forward(self, hidden\_states, attention\_mask):}]
+    In the feed‐forward neural network we apply masking 
+    of future information to prevent the model 
+    from being influenced by future tokens during training, 
+    which would degrade prediction performance. 
+    Each \texttt{forward} call outputs an attention value 
+    that becomes a subcomponent in \texttt{gpt2\_layer.py}.
+    
+\end{description}
+
+\subsection{Layer Module (\texttt{gpt2\_layer.py})}
+
+\begin{description}
+  \item[\texttt{def \_\_init\_\_(self, config):}] 
+    Initializes all sub–modules for one Transformer block:  
+    \begin{itemize}
+      \item Multi–head self–attention \(\bigl(\texttt{CausalSelfAttention}\bigr)\) parameters  
+      \item Two linear layers for the position‐wise feed–forward network  
+      \item Two \texttt{LayerNorm} instances for Pre–LN  
+      \item Dropout probabilities from \texttt{config}  
+    \end{itemize}
+
+  \item[\texttt{def add(self, residual, sublayer\_out, dense\_layer, dropout):}]  
+    \begin{itemize}
+      \item Projects \texttt{sublayer\_out} back to the hidden dimension via \texttt{dense\_layer}.  
+      \item Applies \texttt{dropout} for regularisation.  
+      \item Adds the original \texttt{residual} tensor (residual connection).  
+    \end{itemize}
+
+  \item[\texttt{def forward(self, hidden\_states, attention\_mask):}]  
+    Implements one full block in the Pre–LayerNorm style:
+    \begin{enumerate}
+      \item \textbf{Multi–Head Self–Attention}
+        \begin{enumerate}
+          \item[(1‐a)] \emph{Pre‐normalize}: apply \texttt{LayerNorm} to \texttt{hidden\_states}.
+          \item[(1‐b)] \emph{Attention}: compute self–attention with \texttt{attention\_mask}.
+          \item[(1‐c)] \emph{Dropout + Residual}: use \texttt{add(...)} to project, drop out, and add back the input.
+        \end{enumerate}
+      \item \textbf{Position‐wise Feed–Forward}
+        \begin{enumerate}
+          \item[(2‐a)] \emph{Pre‐normalize}: apply \texttt{LayerNorm} to the attention output.
+          \item[(2‐b)] \emph{MLP}: apply \texttt{Linear} → \texttt{GELU} → \texttt{Linear}.
+          \item[(2‐c)] \emph{Dropout + Residual}: use \texttt{add(...)} again to project, drop out, and add back.
+        \end{enumerate}
+    \end{enumerate}
+\end{description}
+
+  
+\subsection{GPT2 Module Summary (\texttt{gpt2.py})}
+
+\begin{description}
+
+  \item[\texttt{def \_\_init\_\_(self, config):}]  
+    Initializes embeddings, Transformer blocks, layer‐norm and weights.
+
+  \item[\texttt{def embed(self, input\_ids):}]  
+    Token + position lookup + dropout.
+
+  \item[\texttt{def encode(self, hidden, mask):}]  
+    Applies each layer with the extended attention mask.
+
+  \item[\texttt{def forward(self, input\_ids, attention\_mask):}]  
+    Embed → encode → final norm → select last token.
+\begin{verbatim}
+x    = self.embed(input_ids)
+x    = self.encode(x, attention_mask)
+x    = self.ln_f(x)
+last = x[torch.arange(B), attention_mask.sum(1)-1]
+return {'last_hidden_state': x, 'last_token': last}
+\end{verbatim}
+
+  \item[\texttt{def hidden\_state\_to\_token(self, h):}]  
+    Weight–tie projection to vocabulary logits.
+\begin{verbatim}
+return h @ self.wte.weight.T
+\end{verbatim}
+
+  \item[\texttt{@classmethod def from\_pretrained(cls, ...):}]  
+    Load HuggingFace weights into this model.
+\begin{verbatim}
+hf    = HFModel.from_pretrained(model_name)
+model = cls(our_cfg)
+model.load_state_dict(filter_weights(hf.state_dict()))
+return model
+\end{verbatim}
+\end{description}
+
+\subsection{Optimizer Module (\texttt{optimizer.py})}
+
+\begin{description}
+
+  \item[\texttt{def \_\_init\_\_(self, params, lr, betas, eps, weight\_decay, correct\_bias):}]  
+    Validates hyper‐parameters, stores defaults, and calls the base \texttt{Optimizer} constructor.
+
+
+  \item[\texttt{def step(self, closure=None):}]  
+    Performs one optimization step of AdamW:
+    \begin{enumerate}
+      \item[(1)] \textbf{(Optional)} call \texttt{closure()} to recompute loss.
+      \item[(2)] Loop over each parameter group and each parameter \texttt{p}:
+      \item[(3)] \textbf{State Initialization} (first time only):
+\begin{verbatim}
+if len(state)==0:
+    state["step"]       = 0
+    state["exp_avg"]    = torch.zeros_like(p.data)
+    state["exp_avg_sq"] = torch.zeros_like(p.data)
+\end{verbatim}
+      \item[(4)] \textbf{Moment Updates}:
+\begin{verbatim}
+state["step"] += 1
+exp_avg.mul_(beta1).add_(grad, alpha=1-beta1)
+exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1-beta2)
+\end{verbatim}
+      \item[(5)] \textbf{Bias‐Corrected Step Size}:
+\begin{verbatim}
+if correct_bias:
+    bc1 = 1 - beta1**t
+    bc2 = 1 - beta2**t
+    step_size = lr * math.sqrt(bc2) / bc1
+else:
+    step_size = lr
+\end{verbatim}
+      \item[(6)] \textbf{Parameter Update}:
+\begin{verbatim}
+denom = exp_avg_sq.sqrt().add_(eps)
+p.data.addcdiv_(exp_avg, denom, value=-step_size)
+\end{verbatim}
+      \item[(7)] \textbf{Decoupled Weight Decay}:
+\begin{verbatim}
+if weight_decay != 0:
+    p.data.add_(p.data, alpha=-lr * weight_decay)
+\end{verbatim}
+    \end{enumerate}
+    Returns the (possibly recomputed) loss.
+\end{description}
+
+\include{szw}
+
+\include{ShiboDai}
+\end{document}
