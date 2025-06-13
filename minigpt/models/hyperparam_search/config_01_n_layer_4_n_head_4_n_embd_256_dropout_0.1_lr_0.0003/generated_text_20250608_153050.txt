@@ -1,0 +1,89 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:30:50
+起始文本: 'HAMLET: To be or not to be'
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be talk'd for, to accept it.
+
+KING RICHARD II:
+And buried, gentle Tyrrel?
+
+TYRREL:
+The grey-office with such a deceitful soul
+That hath two them kings murder'd:
+But they shall set up forward towards on their market-place;
+Call me to the master?
+
+Page:
+No, no, no, no; for she hath praised his master.
+
+TRANIO:
+Sir, how now, sir! What's the matter? My dear inclinest maid
+That wash'd my hands with thy sword sweet wives and with
+Rainous with silver savage and talk of perpetual
+To greet the traitor's na
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be endured!
+
+GLOUCESTER:
+I hope the king is not here pass'd for so fair?
+She may year more, may betide to my suit;
+And so, here comes Katharina, thy supper is:
+Where is the best of Katharina must be.
+
+SAMPSON:
+The better for his father's death, and I will speak:
+There is no more but strange.
+
+Shepherd:
+I cannot speak, Northumberland, I crave it,
+When I shall not do it.
+
+CLARENCE:
+Then this is the duke my father, cry 'Come;'
+O, 'alce on father, but not who came.
+
+First Murderer:
+Ay, stay we now no 
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be so resolved
+As vaults should be thine. To have heard your person;
+'Tis more, thanks, my gracious lord.
+
+DUKE VINCENTIO:
+
+ISABELLA:
+
+DUKE VINCENTIO:
+Let's hear. O sir, ha! Away with him!
+
+LUCIO:
+A hundred moulderous leisure; the worst is full of
+meat, and here be absent: it may be denied but my
+believe in Vienna, is the grave of men alive?
+
+PETRUCHIO:
+It was an errand.
+
+HORTENSIO:
+Sir, fairly dream!
+
+GREMIO:
+Horse! a devil, a red son, or an apparent,
+Of such post surfeits that we have always bef
+--------------------------------------------------------------------------------
+

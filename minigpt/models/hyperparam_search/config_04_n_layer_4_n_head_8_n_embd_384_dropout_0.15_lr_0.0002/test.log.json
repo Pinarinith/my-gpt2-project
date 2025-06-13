@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-06-06T11:15:35.950438",
+  "test_results": {
+    "average_loss": 0.144580346000516,
+    "token_accuracy": 0.9553625875648869,
+    "average_perplexity": 1.1555621292969993,
+    "loss_statistics": {
+      "min_loss": 0.13314004242420197,
+      "max_loss": 0.15817409753799438,
+      "std_loss": 0.003621490439400077,
+      "median_loss": 0.14454619586467743
+    },
+    "accuracy_statistics": {
+      "min_accuracy": 0.9496084869916646,
+      "max_accuracy": 0.9605662285136501,
+      "std_accuracy": 0.0016638002125546336,
+      "median_accuracy": 0.9553719162940979
+    },
+    "sequence_metrics": {
+      "average_sequence_accuracy": 0.9540988994919158,
+      "exact_match_rate": 0.0,
+      "total_sequences_analyzed": 100
+    },
+    "generation_metrics": {
+      "average_diversity_ratio": 0.3796875,
+      "average_generated_length": 64.0,
+      "num_generation_samples": 10
+    }
+  }
+}

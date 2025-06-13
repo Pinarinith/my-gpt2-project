@@ -6,4 +6,4 @@
 *.synctex.gz
 *.toc
 *.xdv
-
+minigpt/data/

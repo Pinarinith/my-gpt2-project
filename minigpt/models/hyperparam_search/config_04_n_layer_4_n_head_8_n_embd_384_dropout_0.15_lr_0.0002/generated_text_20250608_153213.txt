@@ -1,0 +1,76 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:32:13
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be afresh lamented,
+Deposed informities a creature,
+So many blows in the watern of mine eyes.
+Therefore, no more but this: Henry, your sovereign,
+Is prisoner to the foe; his state usurp'd,
+His realm a slaughter-house, his subjects slain,
+His statutes cancell'd and his treasure spent;
+And yonder is the wolf that makes this spoil.
+You fight in justice: then, in God's name, lords,
+Be valiant and give signal to the fight.
+3 KING HENRY VI
+
+KING EDWARD IV:
+Now, brother Richard, Lord Hastings, and the res
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be afraid of shame, as for their sake.
+
+QUEEN MARGARET:
+O, but impatience waiteth on true sorrow.
+And see where comes the breeder of my sorrow!
+
+KING LEWIS XI:
+What's he approacheth boldly to our presence?
+
+QUEEN MARGARET:
+Our Earl of Warwick, Edward's greatest friend.
+
+KING LEWIS XI:
+Welcome, brave Warwick! What brings thee to France?
+
+QUEEN MARGARET:
+Ay, now begins a second storm to rise;
+For this is he that moves both wind and tide.
+
+OXFORD:
+For what news, in question may they have compell'd
+So 
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be punished: go, then, see't
+hang all the heart.
+
+Shepherd:
+What, art so hurt?
+
+CORIOLANUS:
+A goodly house:
+The nobles blood of English shall manure the ground,
+And future ages groan for this foul act;
+Peace shall go sleep with Turks and infidels,
+And in this seat of peace tumultuous wars
+Shall kin within with kin and kind with kind confound;
+Disorder, horror, fear and mutiny
+Shall here inhabit, and this land be call'd
+The field of Golgotha and dead men's skulls.
+O, if you raise this house against 
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:32:30.971551",
+    "model_path": "models/hyperparam_search/config_07_n_layer_7_n_head_7_n_embd_448_dropout_0.18_lr_0.00025//best_model.pth",
+    "config_path": "models/hyperparam_search/config_07_n_layer_7_n_head_7_n_embd_448_dropout_0.18_lr_0.00025//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 7,
+      "n_head": 7,
+      "n_embd": 448,
+      "dropout": 0.18,
+      "learning_rate": 0.00025
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be but to-day;\nFor the other, gave shed the prince.\n\nMENENIUS:\nFair son, I could have heard the news; yea, his since\nHis thought of death bloods, and they will prove pass'd a plant:\nI warrant they have made peace with Bolingbroke.\n\nSIR STEPHEN SCROOP:\nPeace have they made with him indeed, my lord.\n\nKING RICHARD II:\nO villains, vipers, damn'd without redemption!\nDogs, easily won to fawn on any man!\nSnakes, in my heart-blood warm'd, that sting my heart!\nThree Judases, each one thrice worse than Judas"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be buried,\nBut quick and in mine arms. Come, take your flowers:\nMethinks I play as I have seen them do\nIn Whitsun pastorals: sure this robe of mine\nDoes change my disposition.\n\nFLORIZEL:\nWhat you do\nStill betters what is done. When you speak, sweet.\nI'ld have you do it ever: when you sing,\nI'ld have you buy and sell so, so give alms,\nPray so; and, for the ordering your affairs,\nTo sing them too: when you do dance, I wish you\nA wave o' the sea, that you might ever do\nNothing but that; move still, st",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be but to-day;\nFor she's a woman to be pitied much:\nHer sighs will make a battery in his breast;\nHer tears will pierce into a marble heart;\nThe tiger will be mild whiles she doth mourn;\nAnd Nero will be tainted with remorse,\nTo hear and see her plaints, her brinish tears.\nAy, but she's come to beg, Warwick to give;\nShe, on his left side, craving aid for Henry,\nHe, on his right, asking a wife for Edward.\nShe weeps, and says her Henry is deposed;\nHe smiles, and says his Edward is install'd;\nThat she,",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

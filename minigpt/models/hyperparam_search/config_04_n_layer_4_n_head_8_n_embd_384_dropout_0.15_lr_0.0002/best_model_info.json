@@ -1,0 +1,12 @@
+{
+    "val_loss": 0.14465077732632506,
+    "epoch": 20,
+    "batch": 13940,
+    "config": {
+        "n_layer": 4,
+        "n_head": 8,
+        "n_embd": 384,
+        "dropout": 0.15,
+        "learning_rate": 0.0002
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-06T11:48:31.623860",
+    "model_path": "models/hyperparam_search/config_01_n_layer_4_n_head_4_n_embd_256_dropout_0.1_lr_0.0003/best_model.pth",
+    "config_path": "models/hyperparam_search/config_01_n_layer_4_n_head_4_n_embd_256_dropout_0.1_lr_0.0003/best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 4,
+      "n_head": 4,
+      "n_embd": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be talk'd for, to accept it.\n\nKING RICHARD II:\nAnd buried, gentle Tyrrel?\n\nTYRREL:\nThe grey-office with such a deceitful soul\nThat hath two them kings murder'd:\nBut they shall set up forward towards on their market-place;\nCall me to the master?\n\nPage:\nNo, no, no, no; for she hath praised his master.\n\nTRANIO:\nSir, how now, sir! What's the matter? My dear inclinest maid\nThat wash'd my hands with thy sword sweet wives and with\nRainous with silver savage and talk of perpetual\nTo greet the traitor's na"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be endured!\n\nGLOUCESTER:\nI hope the king is not here pass'd for so fair?\nShe may year more, may betide to my suit;\nAnd so, here comes Katharina, thy supper is:\nWhere is the best of Katharina must be.\n\nSAMPSON:\nThe better for his father's death, and I will speak:\nThere is no more but strange.\n\nShepherd:\nI cannot speak, Northumberland, I crave it,\nWhen I shall not do it.\n\nCLARENCE:\nThen this is the duke my father, cry 'Come;'\nO, 'alce on father, but not who came.\n\nFirst Murderer:\nAy, stay we now no ",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be so resolved\nAs vaults should be thine. To have heard your person;\n'Tis more, thanks, my gracious lord.\n\nDUKE VINCENTIO:\n\nISABELLA:\n\nDUKE VINCENTIO:\nLet's hear. O sir, ha! Away with him!\n\nLUCIO:\nA hundred moulderous leisure; the worst is full of\nmeat, and here be absent: it may be denied but my\nbelieve in Vienna, is the grave of men alive?\n\nPETRUCHIO:\nIt was an errand.\n\nHORTENSIO:\nSir, fairly dream!\n\nGREMIO:\nHorse! a devil, a red son, or an apparent,\nOf such post surfeits that we have always bef",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

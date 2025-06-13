@@ -1,0 +1,81 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:31:57
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be a lawful hangman. I
+would be glad to receive some instruction from my
+fellow partner.
+
+Provost:
+What, ho! Abhorson! Where's Abhorson, there?
+
+ABHORSON:
+Do you call, sir?
+
+Provost:
+Sirrah, here's a fellow will help you to-morrow in
+your execution. If you think it meet, compound with
+him by the year, and let him abide here with you; if
+not, use him for the present and dismiss him. He
+cannot plead his estimation with you; he hath been a bawd.
+
+ABHORSON:
+A bawd, sir? fie upon him! he will discredit 
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be a Roman,
+Though he divide the truth of slaughter'd sorrow.
+But leave it all to God. whither away?
+
+Second Citizen:
+Marry, we were sent for to the justices.
+
+Third Citizen:
+And so was I: I'll bear you company.
+
+ARCHBISHOP OF YORK:
+Last night, I hear, they lay at Northampton;
+At Stony-Stratford will they be to-night:
+To-morrow, or next day, they will be here.
+
+DUCHESS OF YORK:
+I long with all my heart to see the prince:
+I hope he is much grown since last I saw him.
+
+QUEEN ELIZABETH:
+But I hear, no
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be a worthier man.
+Here he comes, and in the gown of humility: mark his
+behavior. We are not to stay all together, but to
+come by him where he stands, by ones, by twos, and
+by threes. He's to make his requests by
+particulars; wherein every one of us has a single
+honour, in giving him our own voices with our own
+tongues: therefore follow me, and I direct you how
+you shall go by him.
+
+All:
+Content, content.
+
+MENENIUS:
+O sir, you are not right: have you not known
+The worthiest men have done't?
+
+CORIOL
+--------------------------------------------------------------------------------
+

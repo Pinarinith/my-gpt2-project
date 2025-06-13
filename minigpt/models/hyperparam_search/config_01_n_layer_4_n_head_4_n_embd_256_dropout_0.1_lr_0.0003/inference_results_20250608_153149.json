@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:31:45.692173",
+    "model_path": "models/hyperparam_search/config_01_n_layer_4_n_head_4_n_embd_256_dropout_0.1_lr_0.0003//best_model.pth",
+    "config_path": "models/hyperparam_search/config_01_n_layer_4_n_head_4_n_embd_256_dropout_0.1_lr_0.0003//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 4,
+      "n_head": 4,
+      "n_embd": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be endured:\nTherefore, look thee hence, and wakes much upon,\nTheir weapons like to be obedient;\nWithout a man, sir, which look'd in his story\nCan can be burn at night-babel adversaries\nTo be undreast that with a virtuous breath\nAnd that the smoke my daughter greatest dregs\nUpon this palace; and there the town and\nA treacherous wind contrarious sense,\nMaking before Romeo stoody to be her fought\nAnd pay for nightingale stars with base in strength,\nWhich shows me more than all these nurses did never b"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be endured:\nWhy should I dream that banish with thy desire\nAnd think upon my birth, that my babes\nWere my father, poor boy; for the world\nThat thou hast said ''Ay, the common people;' who spakes to\nfind speak 'pardon' and otherwise?\n\nAUFIDIUS:\nI have so;\nAnd cruel compliment of the bloody is hot.\nWhy stand we conjure, thou art a fool.\nBoy, light thee to the execution.\n\nLord Mayor:\nGod bless your grace! we see it, and will say it.\n\nGLOUCESTER:\nWhat, will you go muster men flatter than\nthe whole of t",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be endured!\n\nGLOUCESTER:\nI am the devil to set on the Tower.\n\nGLOUCESTER:\nI do beseech your majesty, that is my honour\nIn this of this action, that the realm,\nI know not what to tell it. Good Ely!\nI long to see this base instant to be so.\n\nKING HENRY VI:\nSo would you be a sea, and I'll venge of.\n\nGLOUCESTER:\nWhat, will the word with you?\n\nLADY ANNE:\nNo remedy.\n\nGLOUCESTER:\nA devil.\n\nLADY GREY:\nThat is, as the queen, which makes the depth of all.\n\nGLOUCESTER:\nBut you may jest on, my gracious lord.\n\n",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

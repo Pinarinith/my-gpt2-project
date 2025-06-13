@@ -1,0 +1,72 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:32:28
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be found:
+But then marrying all night to see him and
+The blind to bear him speak: matrons flung gloves,
+Ladies and maids their scarfs and handkerchers,
+Upon him as he pass'd: the nobles bended,
+As to Jove's statue, and the commons made
+A shower and thunder with their childs their heels,
+For I am proverb'd with a grandsire phrase;
+I'll be a candle-holder, and look on.
+The game was ne'er so fair, and I am done.
+
+MERCUTIO:
+Tut, dun's the mouse, the constable's own word:
+If thou art dun, we'll draw the
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be forsworn;
+Wherefore should I come? I mean to shift my bush;
+And then pursue me as you draw your bow.
+You are welcome all.
+
+PETRUCHIO:
+She hath promised you more, that have you not broken?
+
+FROTH:
+No, sir; but she will none, she gives you thanks.
+I would the fool were married to her grave!
+
+CAPULET:
+Soft! take me with you, take me with you, wife.
+How! will she none? doth she not give us thanks?
+Is she not proud? doth she not count her blest,
+Unworthy as she is, that we have wrought
+So worthy a ge
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be found.
+
+ROMEO:
+He jests at scars that never felt a wound.
+But, soft! what light through yonder window breaks?
+It is the east, and Juliet is the sun.
+Arise, fair sun, and kill the envious world,
+They would not send the babe of perpetual repeal:
+'Tis subject to no kinguishall chance
+That was subdued in this desperate brains?
+O, let me think on Hastings, and be gone
+To Brecknock, while my fearful head is on!
+
+TYRREL:
+The tyrannous and bloody deed is done.
+The most arch of piteous massacre
+That ever
+--------------------------------------------------------------------------------
+

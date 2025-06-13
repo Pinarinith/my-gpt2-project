@@ -1,0 +1,67 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:32:37
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be but to-day;
+For the other, gave shed the prince.
+
+MENENIUS:
+Fair son, I could have heard the news; yea, his since
+His thought of death bloods, and they will prove pass'd a plant:
+I warrant they have made peace with Bolingbroke.
+
+SIR STEPHEN SCROOP:
+Peace have they made with him indeed, my lord.
+
+KING RICHARD II:
+O villains, vipers, damn'd without redemption!
+Dogs, easily won to fawn on any man!
+Snakes, in my heart-blood warm'd, that sting my heart!
+Three Judases, each one thrice worse than Judas
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be buried,
+But quick and in mine arms. Come, take your flowers:
+Methinks I play as I have seen them do
+In Whitsun pastorals: sure this robe of mine
+Does change my disposition.
+
+FLORIZEL:
+What you do
+Still betters what is done. When you speak, sweet.
+I'ld have you do it ever: when you sing,
+I'ld have you buy and sell so, so give alms,
+Pray so; and, for the ordering your affairs,
+To sing them too: when you do dance, I wish you
+A wave o' the sea, that you might ever do
+Nothing but that; move still, st
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be but to-day;
+For she's a woman to be pitied much:
+Her sighs will make a battery in his breast;
+Her tears will pierce into a marble heart;
+The tiger will be mild whiles she doth mourn;
+And Nero will be tainted with remorse,
+To hear and see her plaints, her brinish tears.
+Ay, but she's come to beg, Warwick to give;
+She, on his left side, craving aid for Henry,
+He, on his right, asking a wife for Edward.
+She weeps, and says her Henry is deposed;
+He smiles, and says his Edward is install'd;
+That she,
+--------------------------------------------------------------------------------
+

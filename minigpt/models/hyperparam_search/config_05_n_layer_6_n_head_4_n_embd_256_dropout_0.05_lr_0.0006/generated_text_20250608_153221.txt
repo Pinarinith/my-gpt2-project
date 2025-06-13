@@ -1,0 +1,82 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:32:21
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be talked withal.
+Here comes his servant: how now, Catesby,
+What says he?
+
+CATESBY:
+My lord: he doth entreat your grace;
+To visit him to-morrow or next day:
+He is within, with two right reverend fathers,
+Divinely bent to meditation;
+And no worldly suit would he be moved,
+To draw him from his holy exercise.
+
+BUCKINGHAM:
+Return, good Catesby, to thy lord again;
+Tell him, myself, the mayor and citizens,
+In deep designs and matters of great moment,
+No less importing than our general good,
+Are come to h
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be talked withal.
+Here comes his servant: how now, Catesby,
+What says he?
+
+CATESBY:
+My lord: he doth entreat your grace;
+To visit him to-morrow or next day:
+He is within, with two right reverend fathers,
+Divinely bent to meditation;
+And no worldly suit would he be moved,
+To draw him from his holy exercise.
+
+BUCKINGHAM:
+Return, good Catesby, to thy lord again;
+Tell him, myself, the mayor and citizens,
+In deep designs and matters of great moment,
+No less importing than our general good,
+Are come to h
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be talked withal.
+Here comes his mother.
+
+PPAULINA:
+Good my lord, forbear:
+The ruddiness upon her lip is wet;
+You'll mar it if you kiss it, stain your own
+With oily painting. Shall I draw the curtain?
+
+LEONTES:
+No, not these twenty years.
+
+PERDITA:
+So long could I
+Stand by, a looker on.
+
+PAULINA:
+Either forbear,
+Quit presently the chapel, or resolve you
+For more amazement. If you can behold it,
+I'll make the statue move indeed, descend
+And take you by the hand; but then you'll think--
+Which I prote
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+{
+    "n_layer": 7,
+    "n_head": 7,
+    "n_embd": 448,
+    "dropout": 0.18,
+    "learning_rate": 0.00025
+}

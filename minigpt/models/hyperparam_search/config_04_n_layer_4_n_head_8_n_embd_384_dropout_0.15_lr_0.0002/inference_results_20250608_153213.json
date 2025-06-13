@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:32:09.721497",
+    "model_path": "models/hyperparam_search/config_04_n_layer_4_n_head_8_n_embd_384_dropout_0.15_lr_0.0002//best_model.pth",
+    "config_path": "models/hyperparam_search/config_04_n_layer_4_n_head_8_n_embd_384_dropout_0.15_lr_0.0002//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 4,
+      "n_head": 8,
+      "n_embd": 384,
+      "dropout": 0.15,
+      "learning_rate": 0.0002
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be afresh lamented,\nDeposed informities a creature,\nSo many blows in the watern of mine eyes.\nTherefore, no more but this: Henry, your sovereign,\nIs prisoner to the foe; his state usurp'd,\nHis realm a slaughter-house, his subjects slain,\nHis statutes cancell'd and his treasure spent;\nAnd yonder is the wolf that makes this spoil.\nYou fight in justice: then, in God's name, lords,\nBe valiant and give signal to the fight.\n3 KING HENRY VI\n\nKING EDWARD IV:\nNow, brother Richard, Lord Hastings, and the res"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be afraid of shame, as for their sake.\n\nQUEEN MARGARET:\nO, but impatience waiteth on true sorrow.\nAnd see where comes the breeder of my sorrow!\n\nKING LEWIS XI:\nWhat's he approacheth boldly to our presence?\n\nQUEEN MARGARET:\nOur Earl of Warwick, Edward's greatest friend.\n\nKING LEWIS XI:\nWelcome, brave Warwick! What brings thee to France?\n\nQUEEN MARGARET:\nAy, now begins a second storm to rise;\nFor this is he that moves both wind and tide.\n\nOXFORD:\nFor what news, in question may they have compell'd\nSo ",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be punished: go, then, see't\nhang all the heart.\n\nShepherd:\nWhat, art so hurt?\n\nCORIOLANUS:\nA goodly house:\nThe nobles blood of English shall manure the ground,\nAnd future ages groan for this foul act;\nPeace shall go sleep with Turks and infidels,\nAnd in this seat of peace tumultuous wars\nShall kin within with kin and kind with kind confound;\nDisorder, horror, fear and mutiny\nShall here inhabit, and this land be call'd\nThe field of Golgotha and dead men's skulls.\nO, if you raise this house against ",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+MiniGPT 文本生成结果
+生成时间: 2025-06-08 15:31:49
+起始文本: 'HAMLET: To be or not to be '
+温度: 0.8
+Top-k: 50
+最大新token数: 500
+================================================================================
+
+=== 生成样本 1 ===
+参数: 温度=0.8, Top-k=50
+生成文本:
+HAMLET: To be or not to be endured:
+Therefore, look thee hence, and wakes much upon,
+Their weapons like to be obedient;
+Without a man, sir, which look'd in his story
+Can can be burn at night-babel adversaries
+To be undreast that with a virtuous breath
+And that the smoke my daughter greatest dregs
+Upon this palace; and there the town and
+A treacherous wind contrarious sense,
+Making before Romeo stoody to be her fought
+And pay for nightingale stars with base in strength,
+Which shows me more than all these nurses did never b
+--------------------------------------------------------------------------------
+
+=== 生成样本 2 ===
+参数: 温度=0.5, Top-k=50
+生成文本:
+HAMLET: To be or not to be endured:
+Why should I dream that banish with thy desire
+And think upon my birth, that my babes
+Were my father, poor boy; for the world
+That thou hast said ''Ay, the common people;' who spakes to
+find speak 'pardon' and otherwise?
+
+AUFIDIUS:
+I have so;
+And cruel compliment of the bloody is hot.
+Why stand we conjure, thou art a fool.
+Boy, light thee to the execution.
+
+Lord Mayor:
+God bless your grace! we see it, and will say it.
+
+GLOUCESTER:
+What, will you go muster men flatter than
+the whole of t
+--------------------------------------------------------------------------------
+
+=== 生成样本 3 ===
+参数: 温度=0.8, Top-k=0
+生成文本:
+HAMLET: To be or not to be endured!
+
+GLOUCESTER:
+I am the devil to set on the Tower.
+
+GLOUCESTER:
+I do beseech your majesty, that is my honour
+In this of this action, that the realm,
+I know not what to tell it. Good Ely!
+I long to see this base instant to be so.
+
+KING HENRY VI:
+So would you be a sea, and I'll venge of.
+
+GLOUCESTER:
+What, will the word with you?
+
+LADY ANNE:
+No remedy.
+
+GLOUCESTER:
+A devil.
+
+LADY GREY:
+That is, as the queen, which makes the depth of all.
+
+GLOUCESTER:
+But you may jest on, my gracious lord.
+
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:32:23.749457",
+    "model_path": "models/hyperparam_search/config_06_n_layer_5_n_head_5_n_embd_320_dropout_0.12_lr_0.0004//best_model.pth",
+    "config_path": "models/hyperparam_search/config_06_n_layer_5_n_head_5_n_embd_320_dropout_0.12_lr_0.0004//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 5,
+      "n_head": 5,
+      "n_embd": 320,
+      "dropout": 0.12,
+      "learning_rate": 0.0004
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be found:\nBut then marrying all night to see him and\nThe blind to bear him speak: matrons flung gloves,\nLadies and maids their scarfs and handkerchers,\nUpon him as he pass'd: the nobles bended,\nAs to Jove's statue, and the commons made\nA shower and thunder with their childs their heels,\nFor I am proverb'd with a grandsire phrase;\nI'll be a candle-holder, and look on.\nThe game was ne'er so fair, and I am done.\n\nMERCUTIO:\nTut, dun's the mouse, the constable's own word:\nIf thou art dun, we'll draw the"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be forsworn;\nWherefore should I come? I mean to shift my bush;\nAnd then pursue me as you draw your bow.\nYou are welcome all.\n\nPETRUCHIO:\nShe hath promised you more, that have you not broken?\n\nFROTH:\nNo, sir; but she will none, she gives you thanks.\nI would the fool were married to her grave!\n\nCAPULET:\nSoft! take me with you, take me with you, wife.\nHow! will she none? doth she not give us thanks?\nIs she not proud? doth she not count her blest,\nUnworthy as she is, that we have wrought\nSo worthy a ge",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be found.\n\nROMEO:\nHe jests at scars that never felt a wound.\nBut, soft! what light through yonder window breaks?\nIt is the east, and Juliet is the sun.\nArise, fair sun, and kill the envious world,\nThey would not send the babe of perpetual repeal:\n'Tis subject to no kinguishall chance\nThat was subdued in this desperate brains?\nO, let me think on Hastings, and be gone\nTo Brecknock, while my fearful head is on!\n\nTYRREL:\nThe tyrannous and bloody deed is done.\nThe most arch of piteous massacre\nThat ever",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

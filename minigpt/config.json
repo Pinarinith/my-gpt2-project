@@ -1,0 +1,65 @@
+[
+    {
+        "n_layer": 4,
+        "n_head": 4,
+        "n_embd": 256,
+        "dropout": 0.1,
+        "learning_rate": 3e-4
+    },
+    {
+        "n_layer": 6,
+        "n_head": 6,
+        "n_embd": 384,
+        "dropout": 0.2,
+        "learning_rate": 5e-4
+    },
+    {
+        "n_layer": 8,
+        "n_head": 8,
+        "n_embd": 512,
+        "dropout": 0.1,
+        "learning_rate": 1e-4
+    },
+    {
+        "n_layer": 4,
+        "n_head": 8,
+        "n_embd": 384,
+        "dropout": 0.15,
+        "learning_rate": 2e-4
+    },
+    {
+        "n_layer": 6,
+        "n_head": 4,
+        "n_embd": 256,
+        "dropout": 0.05,
+        "learning_rate": 6e-4
+    },
+    {
+        "n_layer": 5,
+        "n_head": 5,
+        "n_embd": 320,
+        "dropout": 0.12,
+        "learning_rate": 4e-4
+    },
+    {
+        "n_layer": 7,
+        "n_head": 7,
+        "n_embd": 448,
+        "dropout": 0.18,
+        "learning_rate": 2.5e-4
+    },
+    {
+        "n_layer": 6,
+        "n_head": 8,
+        "n_embd": 512,
+        "dropout": 0.15,
+        "learning_rate": 3.5e-4
+    },
+    {
+        "n_layer": 5,
+        "n_head": 4,
+        "n_embd": 256,
+        "dropout": 0.08,
+        "learning_rate": 5.5e-4
+    }
+]

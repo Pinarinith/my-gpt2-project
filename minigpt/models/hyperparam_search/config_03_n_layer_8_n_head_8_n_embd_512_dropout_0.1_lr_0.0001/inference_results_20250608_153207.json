@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:32:00.178730",
+    "model_path": "models/hyperparam_search/config_03_n_layer_8_n_head_8_n_embd_512_dropout_0.1_lr_0.0001//best_model.pth",
+    "config_path": "models/hyperparam_search/config_03_n_layer_8_n_head_8_n_embd_512_dropout_0.1_lr_0.0001//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 8,
+      "n_head": 8,
+      "n_embd": 512,
+      "dropout": 0.1,
+      "learning_rate": 0.0001
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be spoke withal.\nHere comes his servant: how now, Catesby,\nWhat says he?\n\nCATESBY:\nMy lord: he doth entreat your grace;\nTo visit him to-morrow or next day:\nHe is within, with two right reverend fathers,\nDivinely bent to meditation;\nAnd no worldly suit would he be moved,\nTo draw him from his holy exercise.\n\nBUCKINGHAM:\nReturn, good Catesby, to thy lord again;\nTell him, myself, the mayor and citizens,\nIn deep designs and matters of great moment,\nNo less importing than our general good,\nAre come to ha"
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be spoke withal.\nHere comes his servant: how now, Catesby,\nWhat says he?\n\nCATESBY:\nMy lord: he doth entreat your grace;\nTo visit him to-morrow or next day:\nHe is within, with two right reverend fathers,\nDivinely bent to meditation;\nAnd no worldly suit would he be moved,\nTo draw him from his holy exercise.\n\nBUCKINGHAM:\nReturn, good Catesby, to thy lord again;\nTell him, myself, the mayor and citizens,\nIn deep designs and matters of great moment,\nNo less importing than our general good,\nAre come to ha",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be talked on, you shall bear more.\n\nCORIOLANUS:\nThe gods begin to mock me. I, that now\nRefused most princely gifts, am bound to beg\nOf my lord general.\n\nCOMINIUS:\nTake't; 'tis yours. What is't?\n\nCORIOLANUS:\nI sometime lay here in Corioli\nAt a poor man's house; he used me kindly:\nHe cried to me; I saw him prisoner;\nBut then Aufidius was within my view,\nAnd wrath o'erwhelm'd my pity: I request you\nTo give my poor host freedom.\n\nCOMINIUS:\nO, well begg'd!\nWere he the butcher of my son, he should\nBe fre",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}

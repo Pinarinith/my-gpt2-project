@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-08T15:31:52.037597",
+    "model_path": "models/hyperparam_search/config_02_n_layer_6_n_head_6_n_embd_384_dropout_0.2_lr_0.0005//best_model.pth",
+    "config_path": "models/hyperparam_search/config_02_n_layer_6_n_head_6_n_embd_384_dropout_0.2_lr_0.0005//best_model_info.json",
+    "seed_text": "HAMLET: To be or not to be ",
+    "temperature": 0.8,
+    "top_k": 50,
+    "max_new_tokens": 500,
+    "num_samples": 1,
+    "model_config": {
+      "n_layer": 6,
+      "n_head": 6,
+      "n_embd": 384,
+      "dropout": 0.2,
+      "learning_rate": 0.0005
+    }
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "temperature": 0.8,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be a lawful hangman. I\nwould be glad to receive some instruction from my\nfellow partner.\n\nProvost:\nWhat, ho! Abhorson! Where's Abhorson, there?\n\nABHORSON:\nDo you call, sir?\n\nProvost:\nSirrah, here's a fellow will help you to-morrow in\nyour execution. If you think it meet, compound with\nhim by the year, and let him abide here with you; if\nnot, use him for the present and dismiss him. He\ncannot plead his estimation with you; he hath been a bawd.\n\nABHORSON:\nA bawd, sir? fie upon him! he will discredit "
+    },
+    {
+      "sample_id": 2,
+      "temperature": 0.5,
+      "top_k": 50,
+      "text": "HAMLET: To be or not to be a Roman,\nThough he divide the truth of slaughter'd sorrow.\nBut leave it all to God. whither away?\n\nSecond Citizen:\nMarry, we were sent for to the justices.\n\nThird Citizen:\nAnd so was I: I'll bear you company.\n\nARCHBISHOP OF YORK:\nLast night, I hear, they lay at Northampton;\nAt Stony-Stratford will they be to-night:\nTo-morrow, or next day, they will be here.\n\nDUCHESS OF YORK:\nI long with all my heart to see the prince:\nI hope he is much grown since last I saw him.\n\nQUEEN ELIZABETH:\nBut I hear, no",
+      "note": "低温度样本"
+    },
+    {
+      "sample_id": 3,
+      "temperature": 0.8,
+      "top_k": 0,
+      "text": "HAMLET: To be or not to be a worthier man.\nHere he comes, and in the gown of humility: mark his\nbehavior. We are not to stay all together, but to\ncome by him where he stands, by ones, by twos, and\nby threes. He's to make his requests by\nparticulars; wherein every one of us has a single\nhonour, in giving him our own voices with our own\ntongues: therefore follow me, and I direct you how\nyou shall go by him.\n\nAll:\nContent, content.\n\nMENENIUS:\nO sir, you are not right: have you not known\nThe worthiest men have done't?\n\nCORIOL",
+      "note": "无Top-k限制样本"
+    }
+  ]
+}
